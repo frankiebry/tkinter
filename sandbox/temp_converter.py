@@ -44,7 +44,7 @@ def main():
     # Create the main window
     window = ttk.Window(themename="journal")
     window.title("Temperature Converter")
-    window.geometry("300x400")
+    window.geometry("300x300")
 
     # Fahrenheit to Celsius Section
     create_conversion_section(window, "Fahrenheit to Celsius", "to_celsius")

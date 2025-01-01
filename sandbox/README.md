@@ -1,1 +1,1 @@
-This programs are just me playing around with tkinter
+These programs are just me playing around with tkinter
