@@ -16,6 +16,9 @@ window = ttk.Window(themename= 'darkly') # Better styling than tk.Tk()
 window.title('Demo')
 window.geometry('300x150')
 
+# Bind the Enter key to the convert function
+window.bind('<Return>', lambda event: convert())
+
 # Create the title label and place it in the window
 title_label = ttk.Label(master = window, text='Miles to Kilometers', font = 'Calibri 24 bold')
 title_label.pack() # Place the widget in the window
