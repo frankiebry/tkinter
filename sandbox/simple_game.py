@@ -23,7 +23,7 @@ class SimpleGameGUI:
         self.message_box.config(state=tk.NORMAL)  # Enable editing
         self.message_box.insert(tk.END, message + "\n")  # Add the message
         self.message_box.config(state=tk.DISABLED)  # Disable editing
-        self.message_box.see(tk.END)  # Scroll to the bottom
+        # self.message_box.see(tk.END)  # Scroll to the bottom
 
     def process_input(self, event):
         """Handle player input from the input box."""
